@@ -15,7 +15,7 @@
           <input type="text" placeholder="password" />
           <input type="text" placeholder="email id" />
           <button>Create</button>
-          <p>ALready have an account <a href="#">Login</a></p>
+          <p>Already have an account <a href="#">Login</a></p>
         </form>
         <form>
           <input type="text" placeholder="user name" />
@@ -25,5 +25,11 @@
         </form>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(".message a").click(function () {
+        $("form").animate({ height: "toggle", opacity: "toggle" }, "slow");
+      });
+    </script>
   </body>
 </html>

@@ -42,3 +42,18 @@ body {
   font-size: 14px;
   cursor: pointer;
 }
+.form button:active, .form button:active{
+    background-color: #43a047;
+} 
+.form .message{
+    margin: 15px 0 0 ;
+    color: red;
+    font-size: 12px ;
+}
+.form .message a{
+    color:#43a047;
+    text-decoration: none;
+}
+.form .register-form{
+display: none;
+}
